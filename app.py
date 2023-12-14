@@ -1,6 +1,6 @@
 import streamlit as st
-import spacy
 from youtube_transcript_api import YouTubeTranscriptApi
+import spacy 
 
 def fetch_transcript(video_id):
     try:
